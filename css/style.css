@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/*******************
+**** VARIABLES *****
+*******************/
+/*******************
+** BLOQUE: nav *****
+*******************/
+a.nav__titulo {
+  color: #862bdc;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 58px;
+  margin-left: 5%; }
+
+.nav__titulo:hover {
+  text-decoration: none; }
+
+.nav__titulo span {
+  font-size: 10pt;
+  color: #de68a5; }
+
+nav li.nav__active {
+  background-color: #e6f4fd;
+  /*uso Variable*/ }
+
+/************************
+** BLOQUE: topimage *****
+*************************/
+img.topimage__portada {
+  width: 100%;
+  margin-bottom: 20px; }
+
+/********************
+** BLOQUE: main *****
+*********************/
+.main__subtitulo {
+  color: #000000;
+  text-align: center;
+  background-color: #e6f4fd;
+  /*uso Variable*/ }
+
+.main__parrafo {
+  text-align: center;
+  font-family: verdana;
+  text-align: justify; }
+
+.main__acordion {
+  border: none;
+  background-color: white; }
+
+.main__parrafoDestacado {
+  font-style: italic;
+  font-size: 200%;
+  line-height: 35px;
+  padding-left: 50px;
+  color: #0764a0;
+  background-image: url("../imagenes/quote.png");
+  background-repeat: no-repeat;
+  background-position: top left; }
+
+.main__precios {
+  background-color: #afaeb7; }
+
+.main__tablaPromociones {
+  font: oblique bold 120% cursive; }
+
+/********************
+** BLOQUE: footer *****
+*********************/
+.footer {
+  text-align: center;
+  background-color: #005691;
+  line-height: 1.5;
+  color: #ffffff;
+  background-image: linear-gradient(to left, #005691, #7b48bf); }
+
+.footer__imagenesRedes img {
+  width: 50px; }
+
+.footer__imagenesRedes li {
+  display: inline-block; }
+
+.footer__copyright {
+  font-style: italic;
+  font-size: 10pt; }
+
+/*----grillas----*/
+/*
+.grid{
+	display: grid;
+	grid-template-rows: 350px 1fr 150px;
+	grid-template-areas:  
+	"encabezado"
+	"cuerpo"
+	"pieDePagina"
+}
+.encabezado{
+	grid-area: encabezado;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.main {
+	grid-area: cuerpo;
+}
+.footer {
+	grid-area: pieDePagina;
+	
+}
+*/
+/*-------Animaciones-crochetcursos------------*/
+.imagenPinceles {
+  float: left; }
+
+.imagenPinceles:hover {
+  transform: rotate(5deg);
+  height: 250px; }
+
+#cuerpo {
+  transition: height 2s;
+  /* indica duración*/ }
